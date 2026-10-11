@@ -1,0 +1,17 @@
+{
+  "name": "hydra-system",
+  "version": "1.0.0",
+  "description": "Hydra moderation database with daily role keys",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "multer": "^2.4.0"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "private": true
+}
